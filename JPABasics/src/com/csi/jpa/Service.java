@@ -24,6 +24,6 @@ public static void main(String[] args) {
 	
 	List<Employee>emplist=session.createQuery("from Employee").list();
 	emplist.forEach(emp->System.out.println(emp));
-	System.out.println("abc");
+	System.out.println("");
 }
 }

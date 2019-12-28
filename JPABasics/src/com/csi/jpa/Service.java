@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	Session session =factory.openSession();
 	Transaction transaction=session.beginTransaction();
 	Employee e1=new Employee();
-	//Employee e1=new Employee();
+	Employee e2=new Employee();
 	e1.setEmpName("ABC");
 	e1.setEmpSalary(2500.0);
 	session.save(e1);
